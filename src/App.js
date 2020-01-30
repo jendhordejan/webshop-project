@@ -6,9 +6,12 @@ import ProductList from "./components/ProductList";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header"></header> */}
+      <body className="App-body">
         <ProductList />
-      </header>
+      </body>
+      {/* <NavBar />
+      <ProductList /> */}
     </div>
   );
 }
