@@ -1,16 +1,7 @@
 // src/store/reducer.js
 import { combineReducers } from "redux";
+import products from "./products/reducer";
+
 export default combineReducers({
-  havingFun: havingFunReducer
-  // we can add more "slice" subreducers here later on...
+  products
 });
-function havingFunReducer(state = "yes", action) {
-  switch (action.type) {
-    case "SET_HAVING_FUN": {
-      return action.payload;
-    }
-    default: {
-      return state;
-    }
-  }
-}
