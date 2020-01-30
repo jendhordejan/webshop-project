@@ -8,9 +8,12 @@ export default class Product extends Component {
         <div clasName="product-card-img">
           <img src={prodItem.imageUrl} alt={prodItem.id} />
         </div>
-        <div className="producr-card-detail">
+        <div className="product-card-detail">
           <p>{prodItem.name}</p>
           <p>€ {prodItem.price}</p>
+          <div className="product-card-actions">
+            <button>Add to Cart</button>
+          </div>
         </div>
       </div>
     );
