@@ -4,6 +4,7 @@ import { fetchProducts } from "../store/products/actions";
 import Product from "./Product";
 import Categories from "./Categories";
 import NavBar from "./NavBar";
+import Toolbar from "./Toolbar";
 
 import { fetchProductCategories } from "../store/categories/actions";
 
@@ -34,12 +35,14 @@ class ProductList extends Component {
     }
     // const loading = !this.props.prods;
     return (
-      <div>
+      <div className="product-list">
         <NavBar totalCartCount={this.props.cart.length} />
-        <h1>This Superficious Hypertencious Webshop</h1>
-        {/* {this.props.prod_categories && (
-          <div>{this.displayCategories(this.props.prod_categories)}</div>
-        )} */}
+        <p align="center">We have {this.props.prods.length} products</p>
+        <div className="categories-container">
+          {this.props.prod_categories && (
+            <div>{this.displayCategories(this.props.prod_categories)}</div>
+          )}
+        </div>
         <div className="product-container">
           {this.displayProducts(this.props.prods)}
         </div>
@@ -49,7 +52,7 @@ class ProductList extends Component {
 }
 
 function mapStateToProps(reduxState) {
-  // console.log("redux state?", reduxState);
+  console.log("redux state?", reduxState);
   return {
     prods: reduxState.products,
     prod_categories: reduxState.categories,

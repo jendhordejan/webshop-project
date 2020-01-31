@@ -1,12 +1,17 @@
-export function addToCartProduct(prod_id, prod_name, prod_qty) {
+export function addToCartProduct(product) {
   //(1.1)
   const action = {
     type: "cart/ADDPRODUCT",
-    payload: {
-      prod_id: prod_id,
-      prod_name: prod_name,
-      prod_qty: prod_qty
-    }
+    payload: { ...product, qty: 1 }
+  };
+  return action;
+}
+
+export function addQtyProduct(prodId) {
+  console.log("item found in Cart");
+  const action = {
+    type: "cart/ADDQTY",
+    payload: prodId
   };
   return action;
 }

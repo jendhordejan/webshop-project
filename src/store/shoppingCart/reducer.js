@@ -7,12 +7,15 @@ export default function reducer(state, action) {
   // debugger;
   switch (action.type) {
     case "cart/ADDPRODUCT": {
-      const result = {
-        prod_id: action.payload.prod_id,
-        prod_name: action.payload.prod_name,
-        prod_qty: action.payload.prod_qty
-      };
-      return [...state, result];
+      return [...state, action.payload];
+    }
+    case "cart/ADDQTY": {
+      const copyState = [...state];
+      copyState.map(product =>
+        product.id === action.payload
+          ? [...copyState, (product.qty += 1)]
+          : state
+      );
     }
     default: {
       return state;
