@@ -33,15 +33,21 @@ class Product extends Component {
         <div class="card-content">
           <p>{prodItem.name}</p>
           <br></br>
-          <p class="product-price">€ {prodItem.price}</p>
         </div>
         <div class="card-action">
-          <button
-            className="waves-effect waves-light btn-small"
-            onClick={() => this.handleAddToCart(this.props.cart, prodItem.id)}
-          >
-            Add to Cart
-          </button>
+          <p class="product-price">€ {prodItem.price}</p>
+          {prodItem.inStock ? (
+            <button
+              className="waves-effect waves-light btn-small"
+              onClick={() => this.handleAddToCart(this.props.cart, prodItem.id)}
+            >
+              Add to Cart
+            </button>
+          ) : (
+            <button className="waves-effect waves-light btn-small" disabled>
+              Sold Out
+            </button>
+          )}
         </div>
       </div>
       // </div>

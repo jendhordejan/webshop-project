@@ -1,8 +1,9 @@
 .product-list-container {
-  /* max-width: 1400px; */
-  /* margin: 40px auto 0 auto; */
+  max-width: 1200px;
+  margin: 40px auto 0 auto;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   padding: 60px;
   border: black;
+  flex-flow: row wrap;
 }

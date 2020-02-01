@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { fetchProductCategories } from "../store/categories/actions";
+import "../css/categories.css";
 
 class Categories extends Component {
   componentDidMount() {

@@ -9,6 +9,7 @@ import ShoppingCart from "./components/ShoppingCart";
 //---------
 import NavigationBar from "./components/NavigationBar";
 import Categories from "./components/Categories";
+import Banner from "./components/Banner";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <body className="App-body">
         <NavigationBar />
         <Categories />
+        <Banner />
         <Switch>
           <Route path="/shoppingcart" component={ShoppingCart} />
           <Route path="/" component={ProductList} />

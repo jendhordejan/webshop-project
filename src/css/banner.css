@@ -1,0 +1,14 @@
+.banner-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: aliceblue;
+}
+
+.usp-block {
+  padding: 5px;
+  /* margin-bottom: 10px; */
+}
+
+.usp-block-item {
+  margin: 2rem;
+}
