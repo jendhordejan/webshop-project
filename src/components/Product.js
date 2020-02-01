@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { addToCartProduct } from "../store/shoppingCart/actions";
 import { addQtyProduct } from "../store/shoppingCart/actions";
+import "../css/product.css";
 
 class Product extends Component {
   handleAddToCart = (cartState, prodId) => {
@@ -18,33 +19,33 @@ class Product extends Component {
   render() {
     const { prodItem } = this.props;
     return (
-      <div className="card" id={prodItem.id}>
-        <div clasName="card-image">
+      // <div class="row">
+      // <div class="col">
+      <div class="card">
+        <div class="card-image">
           <img
+            class="card-image-img"
             src={prodItem.imageUrl}
             alt={prodItem.id}
-            height="200rem"
-            width="200rem"
           />
-        </div>{" "}
-        <div className="product-card-detail">
+          <span class="card-title">{prodItem.id}</span>
+        </div>
+        <div class="card-content">
           <p>{prodItem.name}</p>
-          <p>
-            {Intl.NumberFormat("de-DE", {
-              style: "currency",
-              currency: "EUR"
-            }).format(prodItem.price)}
-          </p>
-          <div className="product-card-actions">
-            <button
-              className="waves-effect waves-light btn-small"
-              onClick={() => this.handleAddToCart(this.props.cart, prodItem.id)}
-            >
-              Add to Cart
-            </button>
-          </div>
+          <br></br>
+          <p class="product-price">€ {prodItem.price}</p>
+        </div>
+        <div class="card-action">
+          <button
+            className="waves-effect waves-light btn-small"
+            onClick={() => this.handleAddToCart(this.props.cart, prodItem.id)}
+          >
+            Add to Cart
+          </button>
         </div>
       </div>
+      // </div>
+      // </div>
     );
   }
 }

@@ -2,161 +2,161 @@
   "products": [
     {
       "id": 1,
-      "categoryId": 4,
-      "name": "Product 1",
-      "imageUrl": "https://picsum.photos/400?image=696",
+      "categoryId": 1,
+      "name": "Hugo Boss Bottled 100 ml - Eau de Toilette - Men's fragrance",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/2/5/2/8/9200000005228252_1.jpg",
       "inStock": true,
-      "price": "3432"
+      "price": "41.99"
     },
     {
       "id": 2,
-      "categoryId": 1,
-      "name": "Product 2",
-      "imageUrl": "https://picsum.photos/400?image=230",
+      "categoryId": 2,
+      "name": "Lenovo Ideapad S130 81J200CGMH - Laptop - 14 Inch",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/4/1/9/8/9200000108998914.jpg",
       "inStock": false,
-      "price": "2374"
+      "price": "249"
     },
     {
       "id": 3,
-      "categoryId": 4,
-      "name": "Product 3",
-      "imageUrl": "https://picsum.photos/400?image=277",
+      "categoryId": 2,
+      "name": "Asus C523NA-EJ0052 - Chromebook - 15.6 Inch",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/4/8/7/3/9200000116333784.jpg",
       "inStock": false,
-      "price": "1942"
+      "price": "279"
     },
     {
       "id": 4,
-      "categoryId": 3,
-      "name": "Product 4",
-      "imageUrl": "https://picsum.photos/400?image=963",
+      "categoryId": 1,
+      "name": "Calvin Klein Ckin2u Him Eau De Toilette Spray",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/4/1/2/8/9200000005228214_1.jpg",
       "inStock": true,
-      "price": "2367"
+      "price": "22.49"
     },
     {
       "id": 5,
       "categoryId": 3,
-      "name": "Product 5",
-      "imageUrl": "https://picsum.photos/400?image=637",
+      "name": "The Seven Sisters 6 - Sun",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/1/3/7/9/9200000105459731.jpg",
       "inStock": false,
-      "price": "1991"
+      "price": "24.99"
     },
     {
       "id": 6,
       "categoryId": 3,
-      "name": "Product 6",
-      "imageUrl": "https://picsum.photos/400?image=811",
+      "name": "The Seven Sisters 2 - Storm",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/0/7/6/7/9200000078777670.jpg",
       "inStock": true,
-      "price": "1956"
+      "price": "20.99"
     },
     {
       "id": 7,
-      "categoryId": 2,
-      "name": "Product 7",
-      "imageUrl": "https://picsum.photos/400?image=616",
+      "categoryId": 3,
+      "name": "The things you only see when you take the time to",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/2/5/5/3/9200000075963552.jpg",
       "inStock": false,
-      "price": "2005"
+      "price": "15.99"
     },
     {
       "id": 8,
-      "categoryId": 4,
-      "name": "Product 8",
-      "imageUrl": "https://picsum.photos/400?image=522",
+      "categoryId": 2,
+      "name": "Apple MacBook Air (2019) - 13.3 Inch - 128 GB - Space gray",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/4/8/7/3/9200000116333784.jpg",
       "inStock": false,
-      "price": "1358"
+      "price": "1149"
     },
     {
       "id": 9,
-      "categoryId": 3,
-      "name": "Product 9",
-      "imageUrl": "https://picsum.photos/400?image=615",
+      "categoryId": 1,
+      "name": "Tommy Hilfiger Tommy 100 ml - Eau De Toilette - Men's fragrance",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/8/7/4/1/9200000008611478.jpg",
       "inStock": false,
-      "price": "2345"
+      "price": "27.60"
     },
     {
       "id": 10,
-      "categoryId": 1,
-      "name": "Product 10",
-      "imageUrl": "https://picsum.photos/400?image=601",
+      "categoryId": 4,
+      "name": "Dutchbone Gin Low Cupboard / Sideboard - Black / Brown The",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/9/1/6/0/9200000090450619.jpg",
       "inStock": false,
-      "price": "1823"
+      "price": "499"
     },
     {
       "id": 11,
-      "categoryId": 1,
-      "name": "Product 11",
-      "imageUrl": "https://picsum.photos/400?image=314",
+      "categoryId": 4,
+      "name": "vidaXL TV cabinet with 3 drawers 120x40x36 cm brown",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/8/3/5/2/9200000078712538.jpg",
       "inStock": true,
-      "price": "1752"
+      "price": "73.99"
     },
     {
       "id": 12,
       "categoryId": 4,
-      "name": "Product 12",
-      "imageUrl": "https://picsum.photos/400?image=442",
+      "name": "TV furniture wood with metal xxl",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/4/2/6/6/9200000128456624.jpg",
       "inStock": true,
       "price": "2196"
     },
     {
       "id": 13,
       "categoryId": 4,
-      "name": "Product 13",
-      "imageUrl": "https://picsum.photos/400?image=338",
+      "name": "Luxurious Retro Vintage Glass Coffee Table With Storage",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/0/5/6/9200000119966505_2.jpg",
       "inStock": true,
-      "price": "3276"
+      "price": "199.95"
     },
     {
       "id": 14,
       "categoryId": 4,
-      "name": "Product 14",
-      "imageUrl": "https://picsum.photos/400?image=739",
+      "name": "Bauhauschairs Kate Industrial Coffee tables - Mango wood - Metal - 2 parts",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/4/9/6/9200000105966945.jpg",
       "inStock": false,
-      "price": "1454"
+      "price": "194.95"
     },
     {
       "id": 15,
-      "categoryId": 4,
-      "name": "Product 15",
-      "imageUrl": "https://picsum.photos/400?image=901",
+      "categoryId": 5,
+      "name": "Google Chromecast 3 - Media Streamer",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/1/9/0/7/9200000099487091.jpg",
       "inStock": false,
-      "price": "1368"
+      "price": "39"
     },
     {
       "id": 16,
-      "categoryId": 3,
-      "name": "Product 16",
-      "imageUrl": "https://picsum.photos/400?image=372",
+      "categoryId": 5,
+      "name": "Google Home - Smart Speaker / White / Dutch",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/5/7/9/9200000100219755_3.jpg",
       "inStock": false,
-      "price": "2087"
+      "price": "85"
     },
     {
       "id": 17,
-      "categoryId": 1,
-      "name": "Product 17",
-      "imageUrl": "https://picsum.photos/400?image=264",
+      "categoryId": 5,
+      "name": "Google Home Mini - Smart Speaker / Black / Dutch",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/2/4/7/9/9200000100219742.jpg",
       "inStock": true,
-      "price": "2523"
+      "price": "52.45"
     },
     {
       "id": 18,
-      "categoryId": 1,
-      "name": "Product 18",
-      "imageUrl": "https://picsum.photos/400?image=133",
+      "categoryId": 2,
+      "name": "Foodsisters - Intermittent fasting",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/1/8/1/9/9200000108549181.jpg",
       "inStock": true,
-      "price": "1118"
+      "price": "20"
     },
     {
       "id": 19,
-      "categoryId": 2,
-      "name": "Product 19",
-      "imageUrl": "https://picsum.photos/400?image=359",
+      "categoryId": 5,
+      "name": "Sonos One - Black",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/4/4/8/2/9200000083962844.jpg",
       "inStock": false,
       "price": "1966"
     },
     {
       "id": 20,
-      "categoryId": 1,
-      "name": "Product 20",
-      "imageUrl": "https://picsum.photos/400?image=354",
+      "categoryId": 5,
+      "name": "Vogel's SOUND 4201 SONOS ONE & PLAY: 1 Black",
+      "imageUrl": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/9/1/2/1/9200000097691219.jpg",
       "inStock": false,
       "price": "2569"
     }
@@ -164,19 +164,23 @@
   "categories": [
     {
       "id": 1,
-      "name": "Category 1"
+      "name": "Perfume"
     },
     {
       "id": 2,
-      "name": "Category 2"
+      "name": "Laptops"
     },
     {
       "id": 3,
-      "name": "Category 3"
+      "name": "Books"
     },
     {
       "id": 4,
-      "name": "Category 4"
+      "name": "Furnitures"
+    },
+    {
+      "id": 5,
+      "name": "Electronics"
     }
   ]
 }

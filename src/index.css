@@ -7,32 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.nav-wrapper {
+/* .nav-wrapper {
   display: flex;
   flex-direction: column-reverse;
   background-color: cornflowerblue;
-}
+} */
 
-.categories-container {
-  display: flex;
-  /* flex-wrap: wrap; */
-  flex-direction: column;
-  margin: 20px;
-  border: solid skyblue 5px;
-}
-
-.product-container {
+/* .card {
   display: flex;
   flex-wrap: wrap;
-  margin: 20px;
-  border: solid skyblue 5px;
-}
-
-.card {
-  /* display: flex;
-  flex-wrap: wrap; */
   margin: 5px;
-}
+  width: 20rem;
+  height: 35rem;
+} */
 
 /* body {
   box-sizing: border-box;

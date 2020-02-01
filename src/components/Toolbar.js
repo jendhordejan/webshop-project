@@ -7,9 +7,9 @@ export default class Toolbar extends Component {
   render() {
     return (
       <div>
-        <div>
+        {/* <div>
           <Link to="/">Homepage</Link>
-        </div>
+        </div> */}
         <div>
           <Link to="/products">Product list Page</Link>
         </div>

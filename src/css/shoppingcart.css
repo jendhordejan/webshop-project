@@ -1,0 +1,13 @@
+.cart-products-wrapper {
+  font-family: "BrownStd-Regular", Arimo, sans-serif;
+  font-family: sans-serif;
+}
+
+.cart-products-wrapper-header {
+  font-family: "BrownStd-Regular", Arimo, sans-serif;
+}
+
+.cart-wrapper {
+  padding: 10rem;
+  border: lightgrey;
+}

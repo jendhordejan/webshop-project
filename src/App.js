@@ -3,20 +3,24 @@ import React from "react";
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
 import ProductList from "./components/ProductList";
-import Toolbar from "./components/Toolbar";
 import Homepage from "./components/Homepage";
 import ShoppingCart from "./components/ShoppingCart";
+
+//---------
+import NavigationBar from "./components/NavigationBar";
+import Categories from "./components/Categories";
 
 function App() {
   return (
     <div className="App">
       {/* <header className="App-header"></header> */}
       <body className="App-body">
-        <Toolbar />
+        <NavigationBar />
+        <Categories />
         <Switch>
-          <Route path="/products" component={ProductList} />
           <Route path="/shoppingcart" component={ShoppingCart} />
-          <Route path="/" component={Homepage} />
+          <Route path="/" component={ProductList} />
+          {/* <Route path="/" component={Homepage} /> */}
         </Switch>
       </body>
       {/* <NavBar />
