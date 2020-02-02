@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import CartProduct from "./CartProduct";
 import "../css/shoppingcart.css";
+import { totalShoppingCartPrice } from "../store/shoppingCart/actions";
 
 class ShoppingCart extends Component {
   displayCartProducts = cartCollection => {
@@ -31,15 +32,15 @@ class ShoppingCart extends Component {
         </div>
         <div class="cart-totals-wrapper" data-cart-container="totals">
           <p class="price-discounts hidden">
-            You're saving
+            You're saving <space> </space>
             <span class="price-total" data-cart-template-element="discounts">
               € 0
             </span>
           </p>
           <p class="price-heading">
-            Subtotal
+            Subtotal<space> </space>
             <span class="price-total" data-cart-template-element="total">
-              € 0.00
+              €{totalShoppingCartPrice(this.props.cart)}
             </span>
           </p>
         </div>
@@ -53,23 +54,6 @@ class ShoppingCart extends Component {
         </div>
       </div>
     );
-    // return (
-    //   <div className="cart-list-container">
-    // <div>
-    //   <table>
-    //     <thead>
-    //       <tr>
-    //         <th></th>
-    //         <th>Name</th>
-    //         <th>Qty</th>
-    //         <th>Total price</th>
-    //       </tr>
-    //     </thead>
-    //     <tbody>{this.displayCartProducts(this.props.cart)}</tbody>
-    //   </table>
-    // </div>
-    //   </div>
-    // );
   }
 }
 

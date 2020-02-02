@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { fetchProductCategories } from "../store/categories/actions";
+import { Link } from "react-router-dom";
 import "../css/categories.css";
 
 class Categories extends Component {
@@ -15,7 +16,11 @@ class Categories extends Component {
       listOfCategories &&
       listOfCategories.map(categoryItem => (
         <li>
-          <a href="badges.html">{categoryItem.name}</a>
+          <a href="badges.html">
+            <Link to={`/categories/${categoryItem.id}/products`}>
+              {categoryItem.name}
+            </Link>
+          </a>
         </li>
       ))
     );

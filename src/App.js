@@ -21,6 +21,7 @@ function App() {
         <Banner />
         <Switch>
           <Route path="/shoppingcart" component={ShoppingCart} />
+          <Route path="/categories/:catId/products" component={ProductList} />
           <Route path="/" component={ProductList} />
           {/* <Route path="/" component={Homepage} /> */}
         </Switch>

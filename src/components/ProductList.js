@@ -28,7 +28,12 @@ class ProductList extends Component {
   };
 
   render() {
-    // console.log("check categories state: ", this.props.categories);
+    const allProducts = this.props.prods;
+    const categoryId = parseInt(this.props.match.params.catId, 10);
+    const filteredProducts = categoryId
+      ? allProducts.filter(product => product.categoryId === categoryId)
+      : allProducts;
+
     if (!this.props.prods) {
       return "Loading...";
     }
@@ -37,7 +42,7 @@ class ProductList extends Component {
       <div className="product-list">
         <p align="center">We have {this.props.prods.length} products</p>
         <div className="product-list-container">
-          {this.displayProducts(this.props.prods)}
+          {this.displayProducts(filteredProducts)}
         </div>
       </div>
     );

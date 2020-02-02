@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
+import { countItemsInCart } from "../store/shoppingCart/actions";
 
 class NavigationBar extends Component {
   render() {
@@ -42,7 +43,7 @@ class NavigationBar extends Component {
                     font-size="0"
                     class="css-elsu7l"
                   />
-                  <span>{this.props.cart.length}</span>
+                  <span>{countItemsInCart(this.props.cart)}</span>
                 </Link>
               </a>
             </li>
